@@ -111,14 +111,14 @@ CIDMET/
 
 如果您在研究中使用了 CIDMET，请考虑引用本项目：
 
-> GarGarfie (2026). *CIDMET: Cross-database Identification and De-duplication Matching Export Tool*. GitHub. https://github.com/GarGarfie/CIDMET
+> Xiao, S (2026). *CIDMET: Cross-database Identification and De-duplication Matching Export Tool*. GitHub. https://github.com/GarGarfie/CIDMET
 
 <details>
 <summary>BibTeX</summary>
 
 ```bibtex
 @software{cidmet2026,
-  author    = {GarGarfie},
+  author    = {Xiao, Shuoting},
   title     = {CIDMET: Cross-database Identification and De-duplication Matching Export Tool},
   year      = {2026},
   url       = {https://github.com/GarGarfie/CIDMET}
