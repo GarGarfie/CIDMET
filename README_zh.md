@@ -1,6 +1,6 @@
 # CIDMET — 跨数据库识别与去重匹配导出工具
 
-[![en](https://img.shields.io/badge/lang-English-blue.svg)](README.md) [![zh](https://img.shields.io/badge/lang-中文-red.svg)](README_zh.md) [![ru](https://img.shields.io/badge/lang-Русский-green.svg)](README_ru.md)
+[![en](https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-Click-blue?style=for-the-badge)](README.md) [![zh](https://img.shields.io/badge/%F0%9F%87%A8%F0%9F%87%B3_%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-%E7%82%B9%E5%87%BB-red?style=for-the-badge)](README_zh.md) [![ru](https://img.shields.io/badge/%F0%9F%87%B7%F0%9F%87%BA_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D0%9D%D0%B0%D0%B6%D0%BC%D0%B8%D1%82%D0%B5-green?style=for-the-badge)](README_ru.md)
 
 ---
 
