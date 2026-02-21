@@ -6,9 +6,9 @@
 
 ## Introduction
 
-**CIDMET** is a desktop application for bibliometric researchers. It takes your local BibTeX reference library and automatically matches entries against exported data from three major academic databases — **Web of Science (WoS)**, **Scopus**, and **Engineering Village (EI/Compendex)** — then extracts matched subsets in each database's native format and provides a merged, deduplicated export.
+**CIDMET** is a desktop application for bibliometric research. It takes your local BibTeX reference library and automatically matches entries against exported data from three major academic databases — **Web of Science (WoS)**, **Scopus**, and **Engineering Village (EI/Compendex)** — then extracts matched subsets in each database's native format and provides merged, deduplicated export in any target database's style.
 
-This solves a common pain point in bibliometric analysis: when you need database-specific export files (for tools like VOSviewer, CiteSpace, or Bibliometrix) that contain only the references in your study, rather than an entire search result set.
+This solves a common pain point in bibliometric analysis: tools like VOSviewer, CiteSpace, or Bibliometrix require export files in a single database's format, yet a complete literature set often spans multiple databases that need to be merged and deduplicated.
 
 ## Features
 
@@ -20,8 +20,6 @@ This solves a common pain point in bibliometric analysis: when you need database
 - **Format-preserving subset export** — output files are immediately usable by bibliometric software
 - **Merged export with author format conversion** — automatically converts author name formats to match WoS / Scopus / EI conventions
 - **Automatic deduplication** — detects and lets you review entries matched by multiple database records
-- **Drag-and-drop GUI** — built with PySide6 (Qt), with progress tracking and tabbed output
-- **Bilingual Scopus support** — handles both English and Chinese Scopus exports
 
 ## Matching Strategy
 
@@ -33,11 +31,11 @@ This solves a common pain point in bibliometric analysis: when you need database
 
 ## Supported Formats
 
-| Database | Import Formats | Subset Output | Merged Output |
-|----------|---------------|---------------|---------------|
-| Web of Science | TXT (tagged), XLS | TXT, XLS | TXT |
-| Scopus | CSV, TXT (EN/CN) | CSV, TXT | CSV |
-| Engineering Village | CSV, TXT | CSV, TXT | CSV |
+| Database | Import Formats | Subset Output |
+|----------|---------------|---------------|
+| Web of Science | TXT (tagged), XLS | TXT, XLS |
+| Scopus | CSV, TXT (EN/CN) | CSV, TXT |
+| Engineering Village | CSV, TXT | CSV, TXT |
 
 ## Installation
 
@@ -111,4 +109,20 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Citation
 
-If you use CIDMET in your research, please consider citing it.
+If you use CIDMET in your research, please consider citing it:
+
+> GarGarfie (2026). *CIDMET: Cross-database Identification and De-duplication Matching Export Tool*. GitHub. https://github.com/GarGarfie/CIDMET
+
+<details>
+<summary>BibTeX</summary>
+
+```bibtex
+@software{cidmet2026,
+  author    = {GarGarfie},
+  title     = {CIDMET: Cross-database Identification and De-duplication Matching Export Tool},
+  year      = {2026},
+  url       = {https://github.com/GarGarfie/CIDMET}
+}
+```
+
+</details>

@@ -6,9 +6,9 @@
 
 ## 简介
 
-**CIDMET**（Cross-database Identification and De-duplication Matching Export Tool）是一款面向文献计量学研究者的桌面应用程序。它以本地 BibTeX 参考文献库为输入，自动将其条目与三大学术数据库 — **Web of Science (WoS)**、**Scopus** 和 **Engineering Village (EI/Compendex)** — 的导出数据进行匹配，然后以各数据库的原生格式提取匹配子集，并提供合并去重导出功能。
+**CIDMET**（Cross-database Identification and De-duplication Matching Export Tool）是一款面向文献计量学研究的桌面应用程序。它以本地 BibTeX 参考文献库为输入，自动将其条目与三大学术数据库 — **Web of Science (WoS)**、**Scopus** 和 **Engineering Village (EI/Compendex)** — 的导出数据进行匹配，然后以各数据库的原生格式提取匹配子集，并提供合并去重导出为任一数据库风格功能。
 
-这解决了文献计量分析中的一个常见痛点：当你需要特定数据库格式的导出文件（用于 VOSviewer、CiteSpace 或 Bibliometrix 等工具）时，通常只需要包含你研究中引用的文献，而不是整个检索结果集。
+这解决了文献计量分析中的一个常见痛点：当你需要特定数据库格式的导出文件用于 VOSviewer、CiteSpace 或 Bibliometrix 等工具时，这些软件或工具会要求单一数据库风格结果的文件，而整个检索结果集往往需要对多个数据库结果进行合并和去重。
 
 ## 功能特性
 
@@ -20,8 +20,6 @@
 - **格式保留子集导出** — 输出文件可直接用于文献计量软件
 - **合并导出与作者格式转换** — 自动将作者姓名格式转换为 WoS / Scopus / EI 的规范格式
 - **自动去重** — 检测并允许用户审查被多个数据库记录匹配的条目
-- **拖放式图形界面** — 基于 PySide6（Qt）构建，支持进度跟踪和分页输出
-- **双语 Scopus 支持** — 可处理中文和英文的 Scopus 导出文件
 
 ## 匹配策略
 
@@ -33,11 +31,11 @@
 
 ## 支持的格式
 
-| 数据库 | 导入格式 | 子集输出 | 合并输出 |
+| 数据库 | 导入格式 | 子集输出 |
 |--------|----------|----------|----------|
-| Web of Science | TXT（标记格式）、XLS | TXT、XLS | TXT |
-| Scopus | CSV、TXT（中/英文） | CSV、TXT | CSV |
-| Engineering Village | CSV、TXT | CSV、TXT | CSV |
+| Web of Science | TXT（标记格式）、XLS | TXT、XLS |
+| Scopus | CSV、TXT（中/英文） | CSV、TXT |
+| Engineering Village | CSV、TXT | CSV、TXT |
 
 ## 安装
 
@@ -111,4 +109,20 @@ CIDMET/
 
 ## 引用
 
-如果您在研究中使用了 CIDMET，请考虑引用本项目。
+如果您在研究中使用了 CIDMET，请考虑引用本项目：
+
+> GarGarfie (2026). *CIDMET: Cross-database Identification and De-duplication Matching Export Tool*. GitHub. https://github.com/GarGarfie/CIDMET
+
+<details>
+<summary>BibTeX</summary>
+
+```bibtex
+@software{cidmet2026,
+  author    = {GarGarfie},
+  title     = {CIDMET: Cross-database Identification and De-duplication Matching Export Tool},
+  year      = {2026},
+  url       = {https://github.com/GarGarfie/CIDMET}
+}
+```
+
+</details>
